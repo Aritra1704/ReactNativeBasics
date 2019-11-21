@@ -17,6 +17,12 @@ const HomeScreen = props => {
         }}
         title="Go to Square Screen"
       />
+      <Button
+        onPress={() => {
+          props.navigation.navigate('Counter');
+        }}
+        title="Go to Counter Screen"
+      />
     </View>
   );
 };
